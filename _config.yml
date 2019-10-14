@@ -7,8 +7,8 @@ description: # IDK
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
-url:  # the base hostname & protocol for your site
-baseurl: / # the subpath of your site, e.g. /blog/
+url: https://orionweller.github.io/ # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
@@ -28,7 +28,11 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 # blog_name: al-folio
+<<<<<<< HEAD
 blog_description: Some posts that I will eventually create
+=======
+blog_description: My recent ramblings
+>>>>>>> origin/gh-pages
 
 # Pagination
 paginate: 4
