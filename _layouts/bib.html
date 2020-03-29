@@ -17,30 +17,32 @@
     <span class="author">
       {% for author in entry.author_array %}
         {% if forloop.length == 1 %}
-          {% if author.last == site.scholar.last_name %}
-            <strong>{{author.last}}, {{author.first}}</strong>
-          {% else %}
-            {{author.last}}, {{author.first}}
-          {% endif %}
-        {% else %}
-          {% unless forloop.last %}
             {% if author.last == site.scholar.last_name %}
               <strong>{{author.last}}, {{author.first}}</strong>,
             {% else %}
-              {% if site.data.coauthors[author.last] %}
-                <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>, 
-              {% else %}
-              <strong>{{author.last}}, {{author.first}}</strong>,
-              {% endif %}
+              {{author.last}}, {{author.first}},
             {% endif %}
+        {% else %}
+            {% unless forloop.last %}
+              {% if author.last == site.scholar.last_name %}
+                <strong>{{author.last}}, {{author.first}}</strong>,
+              {% else %}
+                {% if site.data.coauthors[author.last] %}
+                    <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>, 
+                {% elsif author.last == site.scholar.last_name %}
+                    <strong>{{author.last}}, {{author.first}}</strong>,
+                {% else %}
+                    {{author.last}}, {{author.first}},
+                {% endif %}
+              {% endif %}
           {% else %}
             {% if author.last == site.scholar.last_name %}
-              and <strong>{{author.last}}, {{author.first}}</strong>
+                and <strong>{{author.last}}, {{author.first}}</strong>
             {% else %}
-              {% if site.data.coauthors[author.last] %}
-                and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a> 
-              {% else %}
-                and {{author.last}}, {{author.first}}
+                {% if site.data.coauthors[author.last] %}
+                    and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a> 
+                {% else %}
+                    and {{author.last}}, {{author.first}}
               {% endif %}
             {% endif %}
           {% endunless %}
@@ -69,6 +71,9 @@
   {% endif %}
   {% if entry.html %}
     [<a href="{{ entry.html }}" target="_blank">HTML</a>]
+  {% endif %}
+  {% if entry.link %}
+  [<a href="{{ entry.link }}" target="_blank">Paper PDF</a>]
   {% endif %}
   {% if entry.pdf %}
     [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>]
