@@ -12,7 +12,7 @@ news: true
 social: true
 ---
 
-I'm an undergraduate student at Brigham Young University studying Computer Science and Statistics.  I am broadly interested in Natural Language Processing and Machine Learning: my current research explorations include meta-learning for NLP, natural language generation, and natural language understanding.
+I'm an undergraduate student at Brigham Young University studying Computer Science and Statistics.  I am broadly interested in Natural Language Processing and Machine Learning: my current research includes meta-learning for NLP, natural language understanding, and question answering.
 
 I've had the privilege to work with several professors during my undergraduate experience: [Prof. Kevin Seppi](https://byu-aml.github.io/){:target="\_blank"} on natural language understanding and meta-learning, with [Prof. Nancy Fulda](https://cs.byu.edu/faculty/neo){:target="\_blank"} doing natural language generation and with [Prof. Quinn Snell](https://cs.byu.edu/faculty/snell/){:target="\_blank"} doing computational health research into suicide prevention.
 
