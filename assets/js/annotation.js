@@ -383,7 +383,7 @@ trigger.click(function(){
 // every submit button should take us here
 var nextTask = function() {
     if (canSubmit()) {
-        finalAnswerList.push(get_value(","))
+        finalAnswerList.push(get_value("|"))
         console.log("Added answer to set")
         console.log(finalAnswerList)
         if (currentIndex !== (rawList.length - 1)) {
@@ -393,7 +393,7 @@ var nextTask = function() {
             initializeText();
             return false;
         } else {
-            finalAnswer.val(finalAnswerList.toString())
+            finalAnswer.val(JSON.stringify(finalAnswerList))
             submitButton.unbind('submit');
             console.log(finalAnswerList)
             return true;
