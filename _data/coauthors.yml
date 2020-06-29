@@ -1,8 +1,8 @@
 Seppi:
-    url: https://cs.byu.edu/faculty/kseppi
+    url: https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/
 
 Snell:
-    url: https://cs.byu.edu/faculty/qsnell
+    url: https://cs.byu.edu/faculty/faculty-directory/quinn-snell/
 
 Hanson:
     url: https://lifesciences.byu.edu/directory/carl-hanson
@@ -12,3 +12,6 @@ Barnes:
 
 Tass:
     url: https://neeley-tass.byu.edu/
+
+Fulda:
+    url: https://cs.byu.edu/faculty/faculty-directory/nancy-fulda/
