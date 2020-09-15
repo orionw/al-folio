@@ -18,31 +18,45 @@
       {% for author in entry.author_array %}
         {% if forloop.length == 1 %}
             {% if author.last == site.scholar.last_name %}
-              <strong>{{author.last}}, {{author.first}}</strong>,
+              <strong>{{author.first}} {{author.last}}</strong>,
             {% else %}
-              {{author.last}}, {{author.first}},
+              {{author.first}} {{author.last}},
             {% endif %}
-        {% else %}
-            {% unless forloop.last %}
-              {% if author.last == site.scholar.last_name %}
-                <strong>{{author.last}}, {{author.first}}</strong>,
-              {% else %}
-                {% if site.data.coauthors[author.last] %}
-                    <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>, 
-                {% elsif author.last == site.scholar.last_name %}
-                    <strong>{{author.last}}, {{author.first}}</strong>,
-                {% else %}
-                    {{author.last}}, {{author.first}},
-                {% endif %}
-              {% endif %}
+        {% elsif forloop.length == 2 %}
+          {% unless forloop.last %}
+            {% if author.last == site.scholar.last_name %}
+              <strong>{{author.first}} {{author.last}}</strong>
+            {% else %}
+              {{author.first}} {{author.last}}
+            {% endif %}
           {% else %}
             {% if author.last == site.scholar.last_name %}
-                and <strong>{{author.last}}, {{author.first}}</strong>
+              and <strong>{{author.first}} {{author.last}}</strong>
+            {% else %}
+              and {{author.first}} {{author.last}}
+            {% endif %}
+          {% endunless %}
+        {% else %}
+          {% unless forloop.last %}
+            {% if author.last == site.scholar.last_name %}
+              <strong>{{author.first}} {{author.last}}</strong>,
+            {% else %}
+              {% if site.data.coauthors[author.last] %}
+                  <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>, 
+              {% elsif author.last == site.scholar.last_name %}
+                  <strong>{{author.first}} {{author.last}}</strong>,
+              {% else %}
+                  {{author.first}} {{author.last}},
+              {% endif %}
+            {% endif %}
+          {% else %}
+            {% if author.last == site.scholar.last_name %}
+                and <strong>{{author.first}} {{author.last}}</strong>
             {% else %}
                 {% if site.data.coauthors[author.last] %}
-                    and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a> 
+                    and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a> 
                 {% else %}
-                    and {{author.last}}, {{author.first}}
+                    and {{author.first}} {{author.last}}
               {% endif %}
             {% endif %}
           {% endunless %}
@@ -56,9 +70,9 @@
     {% elsif entry.type == "inproceedings" %}
       <em>In {{entry.booktitle}}</em>
     {% endif %}
-    {% if entry.year %}
+    <!-- {% if entry.year %}
       {{entry.year}}
-    {% endif %}
+    {% endif %} -->
     </span>
   {% endif %}
 
