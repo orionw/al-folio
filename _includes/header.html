@@ -29,11 +29,11 @@
         <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a>
 
         <!-- Pages -->
-        <!-- {% for page in site.pages %}
-          {% if page.title and page.url != "/" %}
+        {% for page in site.pages %}
+          {% if page.title and page.url != "/" and page.url != "/projects/" %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
           {% endif %}
-        {% endfor %} -->
+        {% endfor %}
 
         <!-- CV link -->
         <a class="page-link" href="{{ '/assets/pdf/Orion_Weller_CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae (9.2020)</a>
