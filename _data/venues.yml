@@ -1,0 +1,14 @@
+EMNLP:
+    url: https://en.wikipedia.org/wiki/Empirical_Methods_in_Natural_Language_Processing
+
+ACL:
+    url: https://en.wikipedia.org/wiki/Association_for_Computational_Linguistics
+
+NAACL:
+    url: https://en.wikipedia.org/wiki/North_American_Chapter_of_the_Association_for_Computational_Linguistics
+
+EACL: 
+    url: https://eacl.org/
+
+LREC:
+    url: http://www.lrec-conf.org/

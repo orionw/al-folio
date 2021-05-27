@@ -27,13 +27,21 @@
             {% if author.last == site.scholar.last_name %}
               <strong>{{author.first}} {{author.last}}</strong>
             {% else %}
-              {{author.first}} {{author.last}}
+              {% if site.data.coauthors[author.last] %}
+                  <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>, 
+              {% else %}
+                  {{author.first}} {{author.last}},
+              {% endif %}
             {% endif %}
           {% else %}
             {% if author.last == site.scholar.last_name %}
               and <strong>{{author.first}} {{author.last}}</strong>
             {% else %}
-              and {{author.first}} {{author.last}}
+              {% if site.data.coauthors[author.last] %}
+                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>, 
+              {% else %}
+                  and {{author.first}} {{author.last}}
+              {% endif %}
             {% endif %}
           {% endunless %}
         {% else %}
