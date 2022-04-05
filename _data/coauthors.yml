@@ -1,38 +1,51 @@
-Seppi:
+"Seppi":
+  - firstname: ["Kevin", "K."]
     url: https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/
 
-Snell:
+"Snell":
+  - firstname: ["Quinn", "Q."]
     url: https://cs.byu.edu/faculty/faculty-directory/quinn-snell/
 
-Hanson:
+"Hanson":
+  - firstname: ["Carl", "C."]
     url: https://lifesciences.byu.edu/directory/carl-hanson
 
-Barnes:
+"Barnes":
+  - firstname: ["Barnes", "B."]
     url: https://lifesciences.byu.edu/directory/michael-barnes
 
-Tass:
+"Tass":
+  - firstname: ["Shannon", "S."]
     url: https://neeley-tass.byu.edu/
 
-Fulda:
+"Fulda":
+  - firstname: ["Nancy", "N."]
     url: https://cs.byu.edu/faculty/faculty-directory/nancy-fulda/
 
-Gardner:
+"Gardner":
+  - firstname: ["Matt", "M."]
     url: https://matt-gardner.github.io/
 
-Lourie:
+"Lourie":
+  - firstname: ["Nick", "Nicholas", "N."]
     url: http://nicholaslourie.com/
 
-Peters:
+"Peters":
+  - firstname: ["Matthew", "Matt", "M."]
     url: https://twitter.com/mattthemathman?lang=en
 
-Sagers:
+"Sagers":
+  - firstname: ["Luke", "L."]
     url: https://scholar.google.com/citations?user=ZpxvlO8AAAAJ&hl=en
 
-Kluivers:
+"Kluivers":
+  - firstname: ["Joris", "J."]
     url: https://twitter.com/kluivers
 
-Sperber:
+"Sperber":
+  - firstname: ["Matthias", "M."]
     url: http://msperber.com/
 
-Fearn:
+"Fearn":
+  - firstname: ["Wilson", "W."]
     url: https://www.linkedin.com/in/wilson-fearn-980153142/

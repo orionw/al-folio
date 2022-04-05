@@ -1,15 +1,18 @@
 ---
 layout: about
+title: about
 permalink: /
 title: <strong>Orion</strong> Weller
 # description: <a href="">PhD Student</a>
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: left
   image: avatar.jpg
 
-news: true
-social: true
+news: true  # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 ---
 
 I'm a first-year PhD student at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu) at Johns Hopkins University, advised by [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Dawn Lawrie](https://hltcoe.jhu.edu/researcher/dawn-lawrie/).
