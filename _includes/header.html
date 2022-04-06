@@ -6,7 +6,7 @@
         <div class="container">
           {% if page.title != "about" -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-              {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
+              {%- if site.title == "blank" -%}{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
@@ -23,7 +23,6 @@
           </button>
 
         <!-- CV link -->
-        <!-- <a class="page-link" href="{{ '/assets/pdf/Orion_Weller_CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae ({{ site.time | date: '%m.%Y' }})</a> -->
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
 
@@ -35,16 +34,18 @@
                   {%- endif -%}
                 </a>
               </li>
-              {% if site.blog_name %}
+              
+              <!-- Re-enable block if using Blog -->
+              <!-- {% if site.blog_name %} -->
               <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/blog/' | relative_url }}">blog
-                  {%- if page.title == "blog" -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-              </li>
-              {%- endif %}
+              <!-- <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/blog/' | relative_url }}">blog -->
+                  <!-- {%- if page.title == "blog" -%} -->
+                  <!-- <span class="sr-only">(current)</span> -->
+                  <!-- {%- endif -%} -->
+                <!-- </a>
+              </li> -->
+              <!-- {%- endif %} -->
 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "title" -%}
@@ -78,15 +79,18 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+              <li class="nav-item {% if page.title == p.title %}active{% endif %}"></li>
+                <a class="nav-link" href="{{ '/assets/pdf/Orion_Weller_CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae ({{ site.time | date: '%m.%Y' }})</a>
+              </li>
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
+              <!-- <div class = "toggle-container">
                 <a id = "light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
-              </div>
+              </div> -->
               {%- endif %}
             </ul>
           </div>

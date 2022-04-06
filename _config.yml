@@ -14,7 +14,7 @@ footer_text: >
 # keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://orionweller.github.io # the base hostname & protocol for your site
 baseurl: / # the subpath of your site, e.g. /blog/
@@ -55,8 +55,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: orionw
 twitter_username: orionweller
 linkedin_username: orionweller
-scholar_userid: SYYd4iAAAAAJ
 semantic_author: Orion-Weller/47433471
+
 # orcid_id: # your ORCID ID
 # medium_username: # your Medium username
 # quora_username: # your Quora username
@@ -65,7 +65,7 @@ google_analytics: UA-153616290-1 # out your google-analytics code
 
 
 gitlab_username: # your GitLab user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: SYYd4iAAAAAJ
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -276,7 +276,7 @@ enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
+enable_darkmode:            false   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  false   # enables categorization of projects into
