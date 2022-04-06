@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-title: <strong>Orion</strong> Weller
 # description: <a href="">PhD Student</a>
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
