@@ -21,12 +21,23 @@
           <div class="title">{{entry.title}}</div>
           <!-- Author -->
           <div class="author">
+            <!-- <p>{{entry.author_array}}</p> -->
           {%- for author in entry.author_array -%}
             {%- assign author_is_self = false -%}
             {%- if author.last == site.scholar.last_name%}
               {%- if site.scholar.first_name contains author.first -%}
                 {%- assign author_is_self = true -%}
               {%- endif -%}
+              
+              {%- assign asterisk = '∗' -%}
+              {%- assign first_first_name =  site.scholar.first_name | first -%}
+              {%- assign asterisk_author = asterisk | append: first_first_name -%}
+              <!-- <p>{{author.first}} vs {{asterisk_author}}</p> -->
+
+              {%- if author.first contains asterisk_author -%}
+                {%- assign author_is_self = true -%}
+              {%- endif -%}
+
             {%- endif -%}
             {%- assign coauthor_url = nil -%}
             {%- if site.data.coauthors[author.last] -%}
@@ -35,6 +46,14 @@
                   {%- assign coauthor_url = coauthor.url -%}
                   {%- break -%}
                 {%- endif -%}
+                
+                {%- assign first_first_name_coauthor =  coauthor.firstname | first -%}
+                {%- assign asterisk_coauthor = asterisk | append: first_first_name_coauthor -%}
+                {%- if author.first contains asterisk_coauthor -%}
+                  {%- assign coauthor_url = coauthor.url -%}
+                  {%- break -%}
+                {%- endif -%}
+
               {%- endfor -%}
             {%- endif -%}
             

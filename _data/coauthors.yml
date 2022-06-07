@@ -55,8 +55,8 @@
     url: https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/
 
 
-"Van Durme":
-  - firstname: ["Benjamin", "B."]
+"Durme":
+  - firstname: ["Benjamin Van", "B."]
     url: https://www.cs.jhu.edu/~vandurme/
 
 "Lawrie":
@@ -79,7 +79,7 @@
   - firstname: ["Matthias", "M."]
     url: https://www.linkedin.com/in/matthiaspaulik/
 
-"Setiawan  ":
+"Setiawan":
   - firstname: ["Hendra", "H."]
     url: https://www.linkedin.com/in/hendra-setiawan-9b349b27/
 
@@ -89,6 +89,4 @@
 
 "Gollan":
   - firstname: ["Christian", "C."]
-  url: https://www.linkedin.com/in/christian-gollan-226946114/?originalSubdomain=de
-
-
+    url: https://www.linkedin.com/in/christian-gollan-226946114/?originalSubdomain=de
