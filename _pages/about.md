@@ -14,7 +14,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a first-year PhD student at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu) at Johns Hopkins University, advised by [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Dawn Lawrie](https://hltcoe.jhu.edu/researcher/dawn-lawrie/). I am broadly interested in natural language processing and machine learning. My research is graciously supported by a NSF Graduate Research Fellowship.
+I'm a second-year PhD student at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu) at Johns Hopkins University, advised by [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Dawn Lawrie](https://hltcoe.jhu.edu/researcher/dawn-lawrie/). I am broadly interested in natural language processing (NLP), information retrieval (IR), and machine learning (ML). My research is graciously supported by a NSF Graduate Research Fellowship.
+
+My current research is situated between the NLP and IR fields, where I work to improve how models find and understand knowledge. Specifically, I'm interested in multilingual retrieval and question answering (QA), robust open-domain QA across noisy sources and different domains, and efficient methods for IR and QA.
 
 Previously I graduated with my Bachelor's degree from Brigham Young University in computer science and statistics, where I was advised by [Kevin Seppi](https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/) and [Quinn Snell](https://cs.byu.edu/faculty/faculty-directory/quinn-snell/).
 
