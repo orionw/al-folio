@@ -1,3 +1,19 @@
+"Khan":
+  - firstname: ["Aleem", "A."]
+    url: https://aleemkhan62.github.io/
+
+"Wei":
+  - firstname: ["Kangda", "K."]
+    url: https://scholar.google.com/citations?user=hQ1bio8AAAAJ&hl=en
+
+"Chen":
+  - firstname: ["Yunmo", "Y."]
+    url: https://omnuy.me/
+
+"Weir":
+  - firstname: ["Nathaniel", "N."]
+    url: https://nweir127.github.io/
+
 "Seppi":
   - firstname: ["Kevin", "K."]
     url: https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/
@@ -60,7 +76,7 @@
     url: https://www.cs.jhu.edu/~vandurme/
 
 "Lawrie":
-  - firstname: ["Dawn", "D."]
+  - firstname: ["Dawn", "D.", "Dawn J", "Dawn J."]
     url: https://hltcoe.jhu.edu/researcher/dawn-lawrie/
 
 "Marone":

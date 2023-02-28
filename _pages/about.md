@@ -16,7 +16,9 @@ social: true  # includes social icons at the bottom of the page
 
 I'm a second-year PhD student at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu) at Johns Hopkins University, advised by [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Dawn Lawrie](https://hltcoe.jhu.edu/researcher/dawn-lawrie/). I am broadly interested in natural language processing (NLP), information retrieval (IR), and machine learning (ML). My research is graciously supported by a NSF Graduate Research Fellowship.
 
-My current research is situated between the NLP and IR fields, where I work to improve how models find and understand knowledge. Specifically, I'm interested in multilingual retrieval and question answering (QA), robust open-domain QA across noisy sources and different domains, and efficient methods for IR and QA.
+My current research is situated between the NLP and IR fields, where I work to improve how models find and understand knowledge. Some examples include improving models for open-domain knowledge tasks where the data requires multiple steps of reasoning, where the data is noisy or out-of-domain, and improving model's factuality and attribution.
+
+I'm interning with the Semantic Scholar team of the Allen Institute for AI in Summer 2023, where I'm excited work with [Luca Soldaini](https://soldaini.net/) and [Kyle Lo](https://kyleclo.github.io/).
 
 Previously I graduated with my Bachelor's degree from Brigham Young University in computer science and statistics, where I was advised by [Kevin Seppi](https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/) and [Quinn Snell](https://cs.byu.edu/faculty/faculty-directory/quinn-snell/).
 
