@@ -70,8 +70,11 @@
   - firstname: ["Kevin", "K."]
     url: https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/
 
-
 "Durme":
+  - firstname: ["Benjamin Van", "B."]
+    url: https://www.cs.jhu.edu/~vandurme/
+
+"Van Durme":
   - firstname: ["Benjamin Van", "B."]
     url: https://www.cs.jhu.edu/~vandurme/
 
@@ -106,3 +109,12 @@
 "Gollan":
   - firstname: ["Christian", "C."]
     url: https://www.linkedin.com/in/christian-gollan-226946114/?originalSubdomain=de
+
+"Yang":
+  - firstname: ["Eugene", "E."]
+    url: https://www.eugene.zone/
+
+"Khashabi":
+  - firstname: ["Daniel", "D."]
+    url: https://danielkhashabi.com/
+
