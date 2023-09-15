@@ -118,3 +118,18 @@
   - firstname: ["Daniel", "D."]
     url: https://danielkhashabi.com/
 
+"Cohan": 
+  - firstname: ["Arman", "A."]
+    url: https://armancohan.com/
+
+"Wadden":
+  - firstname: ["David", "D."]
+    url: https://dwadden.github.io/
+
+"Lo":
+  - firstname: ["Kyle", "K."]
+    url: https://kyleclo.github.io/
+  
+"Soldaini":
+  - firstname: ["Luca", "L."]
+    url: https://soldaini.net/
