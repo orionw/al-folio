@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 I'm a third-year PhD student at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu) at Johns Hopkins University, advised by [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Dawn Lawrie](https://hltcoe.jhu.edu/researcher/dawn-lawrie/). I am broadly interested in natural language processing (NLP), information retrieval (IR), and machine learning (ML). My research is graciously supported by a [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
-My current research is situated between the NLP and IR fields, where I work to improve how models find, understand, and generate information. Some examples include improving model's factuality, attribution, or ability to handle distribution shifts.
+My current research is situated between the NLP and IR fields, where I work to improve how models find, understand, and generate information. Some representative examples of my work include [evaluating and using instuctions in retrieval](https://arxiv.org/abs/2403.15246), [exploring LLM data](https://arxiv.org/abs/2403.12958) to [improve factuality/attribution](https://arxiv.org/abs/2305.13252), and [using retrieval to improve RAG](https://arxiv.org/abs/2212.10002).
 
 Previously I graduated with my Bachelor's degree from Brigham Young University in computer science and statistics, where I was advised by [Kevin Seppi](https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/) and [Quinn Snell](https://cs.byu.edu/faculty/faculty-directory/quinn-snell/).
 
