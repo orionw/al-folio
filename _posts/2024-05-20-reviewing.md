@@ -60,7 +60,7 @@ This blog post focuses on the question "who is reviewing?" Although I can't answ
 I scraped all PDF proceedings from *CL conferences from the [ACL Anthology](https://aclanthology.org/) website. Each proceedings contains a list of reviewers who reviewed at the conference. **Note: this is not the number of papers they reviewed, only whether they reviewed at all for the conference**. 
 
 <figure>
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/proceedings.png">
+    {% include figure.html path="assets/img/proceedings.png" class="img-fluid rounded z-depth-1" %}
     <figcaption>An example of the reviewer list in EACL 2023's proceedings PDF</figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ I then OCR'd the data using [`papermage`](https://github.com/allenai/papermage),
 For an example of how this worked see the example below. It removed affiliations and the OCR'd page number (`xi`) and merged names that were split from the end of page to the beginning of the newline:
 
 <figure>
-      <img class="img-fluid rounded z-depth-1" src="/assets/img/example_extract.jpg">
+    {% include figure.html path="assets/img/example_extract.jpg" class="img-fluid rounded z-depth-1" %}
     <figcaption>An example of what the automated extraction did to the reviewer list</figcaption>
 </figure>
 
@@ -228,7 +228,7 @@ I think a good argument can be made that not enough students are reviewing -- bu
 The above prompted me to plot the h-index against the number of times a person reviews.  We can see a pretty strong negative correlation.  This is to be somewhat expected, but the scale of it is quite intense - if no senior people are reviewing, we lose all their experience! Of all the people I annotated, no one with an h-index above 55 revewed more than 2 times over five years.
 
 <figure>
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/h_index.jpg">
+    {% include figure.html path="assets/img/h_index.jpg" class="img-fluid rounded z-depth-1" %}
     <figcaption>Comparing the number of times someone has reviewed in the last five years to their H-Index</figcaption>
 </figure>
 
