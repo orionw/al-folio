@@ -15,6 +15,7 @@ bibliography: 2018-12-22-distill.bib
 toc:
   - name: Introduction
   - name: Data
+  - name: ⚠️ Caveats
   - name: Analysis
     subsections:
     - name: Overall Results
@@ -71,10 +72,12 @@ However, data from 15 years ago in NLP conferences is not quite as interesting, 
 I also manually annotated some of the data to provide deeper insight that could not be obtained automatically. I personally annotated individual's h-index, their region (Asia, North America, Europe, etc.),<d-footnote>There was only one person I randomly sampled who was from Australia so I added them to the "Asia" category even though that isn't correct. There were no persons sampled from South America or Africa. This is likely due to a lack of representation in these areas overall.</d-footnote> their pronouns as listed on their websites / invited talks,<d-footnote>Pronouns corresponds somewhat to their preferred gender. Unfortunately, I could not directly ask all persons that I annotated information for due to time. Note that I did not find any non-binary pronouns in websites and/or talk introductions.</d-footnote> their affiliation, whether they were in Academia/Industry/Government, and their seniority categorized in academic standards: student, < 7 years post-PhD is junior, > 7 years is senior. 
 
 
-### Caveats
+### ⚠️ Caveats
+⚠️⚠️⚠️
 - This data **only includes reviewing and publications at *CL venues**. It is possible (and likely) that people are also reviewing for ML/Speech/Vision conferences. However, I think it reasonable to expect everyone who publishes at *CL venues to also provide service for the NLP community so I don't think this provides an excuse not to review.
-- There are many types of academic service (PCs, ACL board, etc.). It is non-trivial to decide a weighting for these, thus I simply count them equally -- but clearly being a PC is much more work than being a reviewer. However, since the number of people who fill these higher level positions is small it has little impact on the overall analysis (and none of them were annotated in the analysis section).
+- There are many types of academic service (PCs, ACL board, etc.). It is non-trivial to decide a weighting for these, thus I simply count them equally -- but clearly the nature of the service is quite different. However, since the number of people who fill these higher level positions is small it has little impact on the overall analysis (and none of them were annotated in the analysis section).
 - The data only contains the number of **times** someone has reviewed. Thus, someone could have taken on a lighter load and have been counted equally high. However, the number of papers reviewed is not public and overall, I think this is a relatively minor issue.
+- This data also doesn't capture some forms of service, such as people who sub-review.
 
 ### Data Quality
 I manually selected only the PDF pages that contained reviewer information from the proceedings.
@@ -111,22 +114,23 @@ Some surprising statistics:
 
 I was quite shocked to see such a large number of people who haven't reviewed: the community has qualified reviewers -- they just aren't reviewing over the course of five years!
 
-I was even more shocked to see the number of senior people who aren't doing any community service for *CL venues. This was probably my biggest reason for not naming-and-shaming -- my career would be seriously hurt if these people decided not to hire me! But if you're a prominent researcher who is not doing community service for *CL and yet publishes many papers there, I hope you feel some guilt!
+I was even more shocked to see the number of senior people who aren't doing any community service for *CL venues. This was probably my biggest reason for not naming-and-shaming -- my career would be seriously hurt if these people decided not to hire me! 
 
 ### Most Egregious Non-Reviewers
 Drilling in on those who are publishing > 5 papers but not reviewing, who are they?
 
-I manually annotated demographics for the top 25 offenders (ranging from 30 to 136 published *CL papers in the last 5 years):
+I manually annotated demographics for the top 25 offenders (ranging from 30 to 100+ published *CL papers in the last 5 years):
 
 | Category    | Type       | Count |
 |:-------------:|------------|:-------:|
 |       Region      | Europe <br> Asia <br> North America  | 4 <br> 12 <br> 9     |
-| Pronouns    | Male    <br> Female  | 22 <br> 3  |
+| Pronouns    | He/Him    <br> Her/She  | 22 <br> 3  |
 | Seniority   | Student <br> Junior <br> Senior <br>     | 1 <br> 2 <br> 22    |
 | Affiliation | Government <br> Industry <br> Academia   | 2 <br> 7 <br> 16     |
 |    H-Index          | Average <br> Min <br> Max  | 54.3 <br> 8 <br> 169 |
 
-We can see that these non-reviewer publishers are typically from Asia or North America, use male pronouns, are almost always senior researchers, and are generally from academia. They have an average h-index of 54, indicating that they are well-cited. They are from well-respected affiliations including Tsinghua University, Baidu, Alibaba, UC Berkeley, Amazon, Huawei, MSR, and Stanford to name a few affiliations.
+
+We can see that these non-reviewer publishers are typically from Asia or North America, use male pronouns, are almost always senior researchers, and are generally from academia. They have an average h-index of 54, indicating that they are well-cited. They are from well-respected affiliations including the top academic and industrial groups.
 
 ### Who is Reviewing the Most?
 We can also examine the opposite -- who are the kind souls who are reviewing despite not publishing in the past five years? I annotated the demographics for those who review the most with no papers, ranging from 10 to 15 reviews over the past 5 years:
@@ -135,7 +139,7 @@ We can also examine the opposite -- who are the kind souls who are reviewing des
 | Category    | Type       | Count |
 |:-------------:|------------|:-------:|
 |       Region      | Europe <br> Asia <br> North America  | 8 <br> 16 <br> 1     |
-| Pronouns    | Male    <br> Female  | 19 <br> 6  |
+| Pronouns    | He/Him    <br> Her/She  | 19 <br> 6  |
 | Seniority   | Student <br> Junior <br> Senior <br>     | 0 <br> 6 <br> 19    |
 | Affiliation | Government <br> Industry <br> Academia   | 1 <br> 15 <br> 9     |
 |    H-Index          | Average <br> Min <br> Max  | 13.4 <br> 2 <br> 27 |
@@ -146,14 +150,34 @@ We see that those who are reviewing without publishing papers are typically from
 ### People who have published and reviewed
 We've now covered the edge cases, where people either hadn't published or hadn't reviewed in the past five years. But what about those that have reviewed and published? 
 
-There is no magic number of times that one should review per publication -- however, I think we could probably agree that it would be unkind to publish large numbers of papers and only review once. A relatively service-friendly ratio might be something like 5 publications to one time reviewing (given that reviewers are typically asked to review five papers per conference). Given this threshold, we find that 1368 people (~14% of people who have reviewed and published) have a "Papers Per Reviewing Time" ratio greater than 5.
+There is no magic number of times that one should review per publication -- however, I think we could probably agree that it would be unkind to publish large numbers of papers and only review once. The percentiles of who # of Papers Per Review is as follows:
+
+ 
+| Percentile    | Papers Per Review  |
+|:-------------|------------:|
+| 0.1  |  0.5  |
+| 0.2  |  1.0  |
+| 0.3  |  1.0  |
+| 0.4  |  1.5  |
+| 0.5  |  2.0  |
+| 0.6  |  2.5  |
+| 0.7  |  3.0  |
+| 0.8  |  4.0  |
+| 0.9  |  6.3  |
+| 0.95 |    9.0  |
+| 0.99  |  17.7  |
+
+
+A relatively service-friendly ratio might be something like 5 publications to one time reviewing (given that reviewers are typically asked to review five papers per conference and that it is the 85th percentile). On one hand, this becomes difficult for very senior researchers, who publish lots of papers! On the other hand, our community needs senior reviewers along with the junior reviewers, so researchers who publish many papers without reviewing as much leaves the community bereft of their wisdom.
+
+So looking at this threshold of 5 papers per review, we find that 1368 people (~14% of people who have reviewed and published) have a "Papers Per Reviewing Time" ratio greater than 5.
 
 What are the demographics of those who have the worst *Papers Per Reviewing Time* ratio? 
 
 | Category    | Type       | Count |
 |:-------------:|------------|:-------:|
 |       Region      | Europe <br> Asia <br> North America  | 8 <br> 6 <br> 11     |
-| Pronouns    | Male    <br> Female  | 25 <br> 0  |
+| Pronouns    | He/Him    <br> Her/She  | 25 <br> 0  |
 | Seniority   | Student <br> Junior <br> Senior <br>     | 0 <br> 1 <br> 24    |
 | Affiliation | Government <br> Industry <br> Academia   | 1 <br> 8 <br> 16     |
 |    H-Index          | Average <br> Min <br> Max  | 66.8 <br> 12 <br> 204 |
@@ -161,20 +185,20 @@ What are the demographics of those who have the worst *Papers Per Reviewing Time
 
 We can see that those who have reviewed but don't do it much (e.g. a high Papers Per Reviewing Time) are typically from North America, use male pronouns (notably no female pronouns), are almost always senior researchers, and generally from academia. They have an astounding average h-index of 66, indicating that they are extremely well cited.
 
-I can tell you that these people include some of the "hottest" names in the field, ranging from Tsinghua University to Carnegie Mellon University, and including many major industry groups (AI2, Microsoft, FAIR, Amazon, Tencent, Huawei). 
+I can tell you that these people include some of the "hottest" names in the field, ranging from prominent universities to major industry groups. 
 
 What about people from normal ranges? I sampled people who have reviewed between 3 to 10 times and annotated until I got tired (38 total):
 
 | Category    | Type       | Count |
 |:-------------:|------------|:-------:|
 |       Region      | Europe <br> Asia <br> North America  | 16 <br> 6 <br> 16     |
-| Pronouns    | Male    <br> Female  | 31 <br> 7  |
+| Pronouns    | He/Him    <br> Her/She  | 31 <br> 7  |
 | Seniority   | Student <br> Junior <br> Senior <br>     | 9 <br> 23 <br> 6    |
 | Affiliation | Government <br> Industry <br> Academia   | 0 <br> 11 <br> 27     |
 |    H-Index          | Average <br> Min <br> Max  | 12.7 <br> 5 <br> 32 |
 |    Papers Per Reviewing Time          | Average <br> Min <br> Max  | 1.7 <br> 0.25 <br> 5.75 |
 
-We note that this shows a much more balanced set of reviewers: mostly junior, a few students, a few faculty, and mostly from academia. Women and those with female pronouns are still underrepresented but are more balanced than in the previous sections. Overall, reviewers come from a broad mix of university and industry affiliations, with no main pattern.
+We note that this shows a much more balanced set of reviewers: mostly junior, a few students, a few faculty, and mostly from academia. Those with female pronouns are still underrepresented but are more balanced than in the previous sections. Overall, reviewers come from a broad mix of university and industry affiliations, with no main pattern.
 
 ## Total Statistics
 I took all the annotated results and computed the following amount of reviews that each demographic does, on average:
