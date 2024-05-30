@@ -159,7 +159,7 @@ We see that those who are reviewing without publishing papers are typically from
 We've now covered the edge cases, where people either hadn't published or hadn't reviewed in the past five years. But what about those that have reviewed and published? 
 
 #### How much should researchers (and senior ones) review?
-There is no magic number of times that one should review per publication -- however, I think we could probably agree that it would be unkind to publish large numbers of papers and only review once. The percentiles of who # of Papers Per Review is as follows:
+There is no magic number of times that one should review per publication -- however, I think we could probably agree that it would be unkind to publish large numbers of papers and only review once. The percentiles of Papers Per Review is as follows:
 
 | Percentile    | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 | 0.95 | 0.99 |
 |-------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|
@@ -208,8 +208,8 @@ I took all the annotated results and computed the following amount of reviews th
 
 | Pronouns       | Average Reviews |
 |------------|-------:|
-|    Male          | 4.8  |
-|    Female          | 6.7  |
+|    He/Him          | 4.8  |
+|    She/Her          | 6.7  |
 
 A pretty large and striking difference between those with male vs female pronouns!
 
