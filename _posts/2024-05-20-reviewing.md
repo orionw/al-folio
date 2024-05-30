@@ -219,7 +219,7 @@ A pretty large and striking difference between those with male vs female pronoun
 |    Europe          | 5.3  |
 |    North America          | 5.7  |
 
-North American affiliates review the most on average, followed by Europe affiliates, and then Asian affiliates last.
+North American affiliates review the most on average, followed by Europe affiliates, and then Asian affiliates last. ⚠️ Reminder, these are based on regional affiliation and not ethnicity.
 
 | Seniority       | Average Reviews |
 |------------|-------:|
