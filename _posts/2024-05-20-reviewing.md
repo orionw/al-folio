@@ -117,7 +117,7 @@ Some surprising statistics:
 - 135 reviewers published zero papers but still reviewed (yay, thank you!)
 - Prominent persons who did not review in the last five years include *CL conference keynote speakers, best paper award winners (many different such people), and other "leading" researchers whom you the reader have certainly heard of.
 
-⚠️ Reminder: when I say "review" that includes AC/SAC/PC'ing!
+⚠️ Reminder: when I say "review" that includes AC/SAC'ing!
 
 I was quite shocked to see such a large number of people who haven't reviewed: the community has qualified reviewers -- they just aren't reviewing over the course of five years!
 
@@ -213,7 +213,7 @@ I took all the annotated results and computed the following amount of reviews th
 
 A pretty large and striking difference between those with male vs female pronouns!
 
-| Region       | Average Reviews |
+| Affiliation Region       | Average Reviews |
 |------------|-------:|
 |    Asia          | 3.0  |
 |    Europe          | 5.3  |
@@ -251,7 +251,7 @@ I think a good argument can be made that not enough students are reviewing -- bu
 
 
 ## H-Index vs Reviewing?
-The above prompted me to plot the h-index against the number of times a person reviews.  We can see a pretty strong negative correlation.  This is to be somewhat expected, but the scale of it is quite intense - if no senior people are reviewing/AC/SAC'ing, we lose all their experience! Of all the people I annotated, no one with an h-index above 55 reviewed more than 2 times over five years.
+The above prompted me to plot the h-index against the number of times a person reviews.  We can see a pretty strong negative correlation.  This is to be somewhat expected, but the scale of it is quite intense - if no senior people are reviewing/AC'ing/SAC'ing, we lose all their experience! Of all the people I annotated, no one with an h-index above 55 reviewed/AC'd/SAC'd more than 2 times over five years.
 
 <figure>
     {% include figure.html path="assets/img/h_index.jpg" class="img-fluid rounded z-depth-1" %}
@@ -273,12 +273,8 @@ Currently not - I don't want prominent members of the community to dislike me an
 
 Sure, send me an email to get yours (not your friends). But since you've done your own reviewing, feel free to compute your Papers Per Reviewing Time using those numbers!
 
-> I think senior researchers should review less!
-
-Great point, and I think it would be unfair to expect them to review as much as PhD students! However, as I said earlier, senior researchers are needed for the review process to go smoothly -- the fact that they skip out the most really hurts the community. So some threshold needs to be considered and it is generally much higher than what they are currently doing (on average).
-
 ## Acknowledgments
-I'd like to thank Luca Soldaini and Kyle Lo who helped inspire this project and provided useful feedback. I'd also like to thank Marc Marone, Nathaniel Weir, and Aleem Khan for their advice on data processing and proofreading. 
+I'd like to thank Luca Soldaini and Kyle Lo who helped inspire this project and provided useful feedback. I'd also like to thank Marc Marone, Nathaniel Weir, Aleem Khan, and Michael Saxon for their advice on data processing and proofreading. 
 
 ## BibText
 If you found this blogpost useful and would like to cite it, you can cite it as:
