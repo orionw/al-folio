@@ -134,7 +134,7 @@ I manually annotated demographics for the top 25 offenders (ranging from 30 to 1
 | Pronouns    | He/Him    <br> Her/She  | 22 <br> 3  |
 | Seniority   | Student <br> Junior <br> Senior <br>     | 1 <br> 2 <br> 22    |
 | Affiliation | Government <br> Industry <br> Academia   | 2 <br> 7 <br> 16     |
-|    H-Index          | Average <br> Min <br> Max  | 54.3 <br> 8 <br> 169 |
+|    H-Index          | Average <br> Min <br> Max  | 54.3 <br> 8 <br> 160+ |
 
 
 We can see that these non-reviewer publishers are typically from Asia or North America, use male pronouns, are almost always senior researchers, and are generally from academia. They have an average h-index of 54, indicating that they are well-cited. They are from well-respected affiliations including the top academic and industrial groups.
@@ -181,7 +181,7 @@ What are the demographics of those who have the worst *Papers Per Reviewing Time
 | Pronouns    | He/Him    <br> Her/She  | 25 <br> 0  |
 | Seniority   | Student <br> Junior <br> Senior <br>     | 0 <br> 1 <br> 24    |
 | Affiliation | Government <br> Industry <br> Academia   | 1 <br> 8 <br> 16     |
-|    H-Index          | Average <br> Min <br> Max  | 66.8 <br> 12 <br> 204 |
+|    H-Index          | Average <br> Min <br> Max  | 66.8 <br> 12 <br> 200+ |
 |    Papers Per Reviewing Time          | Average <br> Min <br> Max  | 42.4 <br> 26 <br> 84 |
 
 We can see that those who have reviewed but don't do it much (e.g. a high Papers Per Reviewing Time) are typically from North America, use male pronouns (notably no female pronouns), are almost always senior researchers, and generally from academia. They have an astounding average h-index of 66, indicating that they are extremely well cited.
