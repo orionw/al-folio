@@ -145,7 +145,7 @@ We can also examine the opposite -- who are the kind souls who are reviewing des
 
 | Category    | Type       | Count |
 |:-------------:|------------|:-------:|
-|       Region      | Europe <br> Asia <br> North America  | 8 <br> 16 <br> 1     |
+|       Region      | Europe <br> Asia <br> North America  | 8 <br> 1 <br> 16     |
 | Pronouns    | He/Him    <br> Her/She  | 19 <br> 6  |
 | Seniority   | Student <br> Junior <br> Senior <br>     | 0 <br> 6 <br> 19    |
 | Affiliation | Government <br> Industry <br> Academia   | 1 <br> 15 <br> 9     |
