@@ -62,7 +62,7 @@ There are a number of problems in reviewing (poor quality reviews, GPT-generated
 This blog post focuses on the question "who is reviewing?" Although I can't answer this question for all ML venues, I can answer it for the Natural Language Processing (NLP) community which reliably publishes a list of reviewers in their proceedings. Through this, I can gather fine-grained information for *how many times* individuals are reviewing compared to *how many papers* they publish.
 
 ## Data
-I scraped all PDF proceedings from *CL conferences from the [ACL Anthology](https://aclanthology.org/) website. Each proceedings contains a list of reviewers who reviewed at the conference. **Note: this is not the number of papers they reviewed, only whether they reviewed/AC'd/SAC'd at all for the conference**. 
+I scraped all PDF proceedings from *CL conferences from the [ACL Anthology](https://aclanthology.org/) website. Each proceedings contains a list of reviewers who reviewed at the conference. Note: this is **not the number of papers** they reviewed, **only whether they reviewed/AC'd/SAC'd at all** for *CL conference**. 
 
 <figure>
     {% include figure.html path="assets/img/proceedings.png" class="img-fluid rounded z-depth-1" %}
@@ -167,7 +167,7 @@ There is no magic number of times that one should review per publication -- howe
 
 A relatively service-friendly ratio might be something like 5 publications to one time reviewing/AC/SAC'ing (given that reviewers are typically asked to review five papers per conference and that it is the 85th percentile). 
 
-On one hand, reviewing/AC/SAC'ing once per every 5 papers becomes difficult for very senior researchers, who publish lots of papers! On the other hand, our community needs senior reviewers/AC/SAC'ing along with the less experienced reviewers (especially for the AC's and SAC's), so researchers who publish many papers without reviewing as much leaves the community bereft of their wisdom and forcing more and more junior people to take on these roles.
+On one hand, reviewing/AC/SAC'ing once per every 5 papers becomes difficult for very senior researchers, who publish lots of papers! On the other hand, our community needs senior reviewers/AC/SAC'ing along with the less experienced reviewers (especially for the AC's and SAC's), so researchers who publish many papers without reviewing as much leaves the community bereft of their wisdom and forces more and more junior people to take on these roles.
 
 
 #### Statistics of Published and Reviewing Authors
