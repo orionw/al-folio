@@ -16,9 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 I'm a fourth-year PhD student at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu) at Johns Hopkins University, advised by [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Dawn Lawrie](https://hltcoe.jhu.edu/researcher/dawn-lawrie/). I am broadly interested in natural language processing (NLP), information retrieval (IR), and machine learning (ML). My research is graciously supported by a [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
-My current research interests are situated between the NLP and IR fields, where I work to improve how models find, understand, and generate information. These days my interests fall in three main categories:
-
-
+My current research interests are situated between the NLP and IR fields, where I work to improve how models find, understand, and generate information. These days my research interests fall in three main categories, although I sometimes get distracted by other LLM-based topics:
 
 - Retrieval models: figuring out how to [evaluate](https://arxiv.org/abs/2403.15246) [them](https://arxiv.org/abs/2305.07614) [comprehensively](https://arxiv.org/abs/2406.17186) and giving them new capabilites, such as creating [instructable/prompted retrievers](todo)
 - Retrieval-Augmented Generation (RAG): work towards building better [RAG evaluations](https://arxiv.org/abs/2405.00982) and [improving RAG performance (often through better retrieval)](https://arxiv.org/abs/2212.10002)
