@@ -19,7 +19,7 @@ I'm a fourth-year PhD student at the [Center for Language and Speech Processing]
 My current research interests are situated between the NLP and IR fields, where I work to improve how models find, understand, and generate information. These days my research interests fall in three main categories, although I can get distracted by other LLM-based topics:
 
 - Retrieval models: figuring out how to [evaluate](https://arxiv.org/abs/2403.15246) [them](https://arxiv.org/abs/2305.07614) [comprehensively](https://arxiv.org/abs/2406.17186) and giving them new capabilites, such as creating [instructable/prompted retrievers](todo)
-- Retrieval-Augmented Generation (RAG): work towards building better [RAG evaluations](https://arxiv.org/abs/2405.00982) and [improving RAG performance (often through better retrieval)](https://arxiv.org/abs/2212.10002)
+- Retrieval-Augmented Generation (RAG): working towards better [RAG evaluations](https://arxiv.org/abs/2405.00982) and [improving RAG performance (often through better retrieval)](https://arxiv.org/abs/2212.10002)
 - Language model pre-training data: [understanding why LMs act they way they do](https://arxiv.org/abs/2403.12958), [curating corpora for pre-training](https://arxiv.org/abs/2307.07049) or using [pre-training information to help LM generation](https://arxiv.org/abs/2305.13252)
 
 Previously I graduated with my Bachelor's degree from Brigham Young University in computer science and statistics, where I was advised by [Kevin Seppi](https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/) and [Quinn Snell](https://cs.byu.edu/faculty/faculty-directory/quinn-snell/).
